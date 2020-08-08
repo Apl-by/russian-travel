@@ -1,0 +1,11 @@
+
+/* resetting styles */
+@import url('../vendor/normalize.css');
+
+/* added fonts "intel" */
+@import url('../vendor/fonts.css');
+
+/* block "page" */
+@import url(../blocks/page/page.css);
+
+
