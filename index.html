@@ -8,8 +8,24 @@
 </head>
 <body>
   <div class="page">
-    
-  </div>
 
+    <header class="header">
+      <picture class="header__logo">
+        <source srcset="./images/header-logo-mobil.svg" media="(max-width: 425px)">
+        <img src="./images/header-logo.svg" alt="Логотип" class="header__logo">
+      </picture>
+      <form action="/" class="header__lang-form">
+        <label for="ru-lang" class="header__lang-link">
+          <input class="header__radio" type="radio" name="lang" id="ru-lang" value="ru" checked>
+          <span class="header__radio-text">Ru</span>
+        </label>
+        <label for="en-lang" class="header__lang-link">
+          <input class="header__radio" type="radio" name="lang" id="en-lang" value="en">
+          <span class="header__radio-text">En</span>
+        </label>
+      </form>
+    </header>
+
+  </div>
 </body>
 </html>

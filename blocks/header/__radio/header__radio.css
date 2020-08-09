@@ -1,0 +1,10 @@
+.header__radio {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+}
+
+.header__radio:checked + .header__radio-text {
+text-decoration: underline;
+}
+
