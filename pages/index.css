@@ -11,8 +11,11 @@
 /* block "header" */
 @import url('../blocks/header/header.css');
 
+/* block "content" */
+@import url('../blocks/content/content.css');
 
-
+/* block "lead"*/
+@import url('../blocks/lead/lead.css');
 
 
 
