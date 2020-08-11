@@ -2,13 +2,15 @@
 @import url('./__subtitle/lead__subtitle.css');
 @import url('./__image/lead__image.css');
 @import url('./__caption/lead__caption.css');
-
+/* margin:auto пересмотреть и убрать */
 .lead {
   display: flex;
   flex-direction: column;
   margin: 56px auto 92px;
   max-width: 984px;
 }
+
+/* Доделать переходы и масштабирование текста + line-hieght в % */
 
 @media screen and (max-width: 1080px) {
   .lead {
@@ -41,7 +43,8 @@
     margin: 48px 0 88px;
   }
   .lead__caption {
-    margin: 8px auto 0 0;
+    align-self: start;
+    margin: 8px 0 0;
     padding-left: 24px;
   }
 }

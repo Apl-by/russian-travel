@@ -12,7 +12,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 117%;
 
 }
 
@@ -32,7 +32,7 @@
 @media screen and (max-width: 720px) {
   .header {
     font-size: 3.333vw;
-    line-height: 3.888vw;
+    /* line-height: 3.888vw; */
   }
   .header__logo {
     width: 26.339%;
@@ -42,7 +42,7 @@
 @media screen and (max-width: 588px) {
   .header {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 133%;
   }
 
   .header__logo {
