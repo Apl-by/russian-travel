@@ -23,6 +23,12 @@
 /* block "photo-grid" */
 @import url('../blocks/photo-grid/photo-grid.css');
 
+/* block "places" */
+@import url('../blocks/places/places.css');
+
+/* block "place" */
+@import url('../blocks/place/place.css');
+
 
 
 * {
