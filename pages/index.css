@@ -20,6 +20,9 @@
 /* block "intro" */
 @import url('../blocks/intro/intro.css');
 
+/* block "photo-grid" */
+@import url('../blocks/photo-grid/photo-grid.css');
+
 
 
 * {

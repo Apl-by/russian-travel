@@ -8,8 +8,9 @@
   flex-direction: column;
   margin: 56px 0 92px;
   max-width: 984px;
+  margin: auto;
 }
-/* margin:auto для блока lead  пересмотреть и (?) убрать */
+
 /* Доделать переходы и масштабирование текста + line-hieght в % */
 
 @media screen and (max-width: 1080px) {
