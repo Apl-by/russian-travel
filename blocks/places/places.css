@@ -2,8 +2,8 @@
   margin: auto;
   max-width: 984px;
   padding: 92px 48px;
+  list-style: none;
 }
-
 
 @media screen and (max-width: 816px) {
   .places {
@@ -11,7 +11,6 @@
     padding: 88px 0;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .places {
@@ -24,7 +23,4 @@
     padding: 64px 0px;
     max-width: 400px;
   }
-
-  
 }
-
