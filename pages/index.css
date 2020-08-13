@@ -32,6 +32,8 @@
 /* block "cover" */
 @import url('../blocks/cover/cover.css');
 
+/* block "footer" */
+@import url('../blocks/footer/footer.css');
 
 
 * {
