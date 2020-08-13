@@ -29,6 +29,9 @@
 /* block "place" */
 @import url('../blocks/place/place.css');
 
+/* block "cover" */
+@import url('../blocks/cover/cover.css');
+
 
 
 * {
