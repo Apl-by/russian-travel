@@ -7,14 +7,33 @@
 .intro {
   display: flex;
   flex-direction: column;
-  width: 690px;
-  /* align-self: flex-start; */
+  max-width: 690px;
   padding-left: calc((100vw - 984px)/2);
-  margin-bottom: 92px;
+  padding-bottom: 92px;
 }
 
 @media screen and (min-width: 1281px) {
   .intro {
     padding-left: 148px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .intro {
+    padding-left: 48px;
+  }
+}
+
+@media screen and (max-width: 816px) {
+  .intro {
+    max-width: 720px;
+    margin: auto;
+    padding: 0 0 88px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 0 24px 88px;
   }
 }
