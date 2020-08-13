@@ -2,7 +2,6 @@
 @import url('./__subtitle/lead__subtitle.css');
 @import url('./__image/lead__image.css');
 @import url('./__caption/lead__caption.css');
-
 .lead {
   display: flex;
   flex-direction: column;
@@ -15,12 +14,10 @@
   .lead {
     padding: 48px 48px 92px;
   }
-
   .lead__subtitle {
     margin: 32px auto 56px;
   }
 }
-
 
 @media screen and (max-width: 864px) {
   .lead {
@@ -33,48 +30,39 @@
   .lead {
     width: 100vw;
   }
-
   .lead__caption {
     padding-left: 24px;
   }
 }
 
-/* Доделать переходы и масштабирование текста + line-hieght в % */
-
-/*
-
-@media screen and (max-width: 792px) {
-  .lead__caption {
-    align-self: flex-end;
-    margin: 8px 585.39px 0 auto;
-    padding-right: calc(100vw - 100%);
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .lead {
-    width: 100%;
-    margin: 48px 0 88px;
-  }
-  .lead__caption {
-    align-self: start;
-    margin: 8px 0 0;
-    padding-left: 24px;
-  }
-}
-
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 736px) {
   .lead__title {
     font-size: 13.3333vw;
-    line-height: 13.88888vw;
     width: 100%;
   }
-
   .lead__subtitle {
-    font-size: 16px;
-    line-height: 20px;
-    width: 288px;
-    margin: 16px auto 40px;
+    font-size: 4vw;
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead {
+    padding: 48px 0 64px;
   }
 
-} */
+  .lead__title {
+    font-size: 40px;
+    line-height: 110%;
+    padding: 0 16px;
+   max-width: 288px;
+  }
+  .lead__subtitle {
+    font-size: 16px;
+    padding: 0 16px;
+    max-width: 288px;
+  }
+  .lead__caption {
+    padding-left: 16px;
+  }
+}

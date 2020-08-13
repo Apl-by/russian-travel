@@ -2,8 +2,6 @@
 @import url('./__text/intro__text.css');
 @import url('./__list/intro__list.css');
 @import url('./__count/intro__count.css');
-
-
 .intro {
   display: flex;
   flex-direction: column;
@@ -35,5 +33,26 @@
 @media screen and (max-width: 768px) {
   .intro {
     padding: 0 24px 88px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .intro__title {
+    font-size: 7vw;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    padding: 0 16px 64px;
+  }
+  .intro__title {
+    font-size: 32px;
+    line-height: 109%;
+    max-width: 288px;
+  }
+  .intro__text {
+    max-width: 288px;
   }
 }

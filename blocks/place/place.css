@@ -48,3 +48,30 @@
     line-height: 163%;
   }
 }
+
+@media screen and (max-width: 523px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
+
+  .place__website {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place {
+    margin-bottom: 48px;
+  }
+
+  .place__title {
+    font-size: 32px;
+    line-height: 109%;
+    margin-bottom: 32px;
+    padding: 0 16px;
+  }
+
+  .place__paragraph {
+    padding: 0 16px;
+  }
+}

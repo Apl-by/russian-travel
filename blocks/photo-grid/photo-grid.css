@@ -28,3 +28,10 @@
     padding: 0 24px 0;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .photo-grid {
+    grid-gap: 12px;
+    padding: 0 16px 0;
+  }
+}
