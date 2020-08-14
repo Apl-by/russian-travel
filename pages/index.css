@@ -35,3 +35,8 @@
 /* block "footer" */
 @import url('../blocks/footer/footer.css');
 
+* {
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: red;
+}

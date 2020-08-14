@@ -1,6 +1,3 @@
 .place__website-link {
   color: inherit;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
 }

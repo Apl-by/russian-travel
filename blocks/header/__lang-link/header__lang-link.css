@@ -1,9 +1,10 @@
+
+
 .header__lang-link {
-  cursor: pointer;
-  margin-right: 18px;
+  color: inherit;
+  text-decoration: none;
 }
 
-.header__lang-link:last-child {
-  margin-right: 0;
+.header__lang-link:hover {
+  opacity: .8;
 }
-

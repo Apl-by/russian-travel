@@ -1,4 +1,6 @@
+@import url('./__nav/footer__nav.css');
 @import url('./__links/footer__links.css');
+@import url('./__link-item/footer__link-item.css');
 @import url('./__link/footer__link.css');
 @import url('./__copyright/footer__copyright.css');
 .footer {
@@ -28,21 +30,5 @@
     margin: 0;
     padding: 64px 16px 24px;
     max-width: 200px;
-  }
-  .footer__copyright {
-    margin-top: 48px;
-    align-self: start;
-  }
-  .footer__links {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .footer__link {
-    margin: 0 0 32px;
-    font-size: 24px;
-    line-height: 24px;
-  }
-  .footer__link:last-child {
-    margin-bottom: 0;
   }
 }

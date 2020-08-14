@@ -1,4 +1,15 @@
-
 .header__logo {
   display: flex;
+}
+
+@media screen and (max-width: 736px) {
+  .header__logo {
+    width: 24.6%;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .header__logo {
+    width: 142px;
+  }
 }

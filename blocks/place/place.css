@@ -15,6 +15,9 @@
   column-gap: 40px;
   width: 100%;
   margin-bottom: 80px;
+  grid-template-areas:
+  " title website"
+  "image paragraph";
 }
 
 .place:last-child {
@@ -31,25 +34,11 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
-  .place__title {
-    font-size: 7.04vw;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .place {
     -webkit-column-gap: 28px;
     -moz-column-gap: 28px;
     column-gap: 28px;
-  }
-  .place__title {
-    font-size: 42px;
-    line-height: 110%;
-  }
-  .place__paragraph {
-    font-size: 16px;
-    line-height: 163%;
   }
 }
 
@@ -57,26 +46,15 @@
   .place {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-  }
-  .place__website {
-    display: none;
+    grid-template-areas:
+    " title"
+    "image"
+    "paragraph";
   }
 }
 
 @media screen and (max-width: 425px) {
   .place {
     margin-bottom: 48px;
-  }
-  .place__title {
-    font-size: 32px;
-    line-height: 109%;
-    margin-bottom: 32px;
-    padding: 0 16px;
-  }
-  .place__paragraph {
-    padding: 0 16px;
-  }
-  .place__image {
-    margin-bottom: 32px;
   }
 }

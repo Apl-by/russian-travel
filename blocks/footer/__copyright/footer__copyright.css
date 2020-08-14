@@ -3,5 +3,13 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 14px
+  line-height: 14px;
+  margin: 0;
+}
+
+@media screen and (max-width: 736px) {
+  .footer__copyright {
+    margin-top: 48px;
+    align-self: start;
+  }
 }
